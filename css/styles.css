@@ -56,8 +56,8 @@ ol {
         letter-spacing: 0.02em;
 }
 
-.header-nav-link a:hover,
-.header-nav-link a:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: #404bbf;
 }
 
@@ -73,8 +73,8 @@ ol {
     letter-spacing: 0.02em;
 }
 
-.contacts-link a:hover,
-.contacts-link a:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
@@ -92,6 +92,7 @@ ol {
 }
 
 .order-button {
+    cursor: pointer;
     background-color: #4D5AE5;
     color: #FFF;
         font-family: inherit;
@@ -101,8 +102,8 @@ ol {
         letter-spacing: 0.04em;
 }
 
-.first-button:hover,
-.first-button:focus {
+.order-button:hover,
+.order-button:focus {
     background-color: #404BBF;
 }
 
@@ -132,6 +133,7 @@ ol {
     font-weight: 500;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .team-item {
@@ -160,6 +162,7 @@ ol {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-title-name {
